@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>E-commerce HTML CSS JAVAScript</Script></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/search?q=shopping&o=r">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .product-card {
+          width: 250px;
+          border: 1px solid black;
+          padding: 10px;
+          margin: 10px;
+        }
+        .product-image {
+          width: 100%;
+          height: 150px;
+        }
+        .product-title {
+          font-weight: bold;
+        }
+      </style>
+</head>
+
+<body>
+    <sectin id="head">
+        <a href="#"><img src="img/logo.png" class="logo "></a>
+
+        <div>
+            <url id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </url>
+        </div>
+      
+    </sectin>
+
+    <section id="page-header"> 
+        
+        <h2>#StayHome</h2>
+        
+        <p>save more with coupons & up to 70% off</p>
+       
+    </section>
+    
+    <section id="product1" class="section-p1">
+        <div class="pro-contener">
+            <div class="pro" onclick="window.location.href='siproduct.html'">
+                <img src="img/products/t3.jpg" alt="">
+                <div clas="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaunt T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    
+                </div>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="product-card">
+        <img class="product-image" src="[image source]" alt="Product Image">
+        <h3 class="product-title">Product Name</h3>
+        <p class="product-description">A short description of the product.</p>
+        <p class="product-price">$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <script>
+        // Replace with the actual image source
+        document.querySelector('.product-image').src = 'https://via.placeholder.com/150';
+      
+        // Replace with the product name, description, and price
+        document.querySelector('.product-title').textContent = "OfficeSuite Home & Business";
+        document.querySelector('.product-description').textContent = "Lifetime License - Documents, Sheets, Slides, PDF, Mail & Calendar for Windows";
+        document.querySelector('.product-price').textContent = "$49.99";
+      </script>
+    
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+    </section>
+
+   
+   
+    <script src="app.js"></script>
+</body>
+
+</html>
